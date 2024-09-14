@@ -1,0 +1,44 @@
+*::selection{
+    background-color: rgb(207, 129, 120);
+}
+
+body[theme="black"]{
+    background-color: #000;
+}
+body[theme="black"] .section{
+    color:#fff
+}
+body[theme="cyan"]{
+    background-color: cyan;
+   
+}
+body[theme="cyan"] .section{
+    color: rgb(24, 26, 26);
+}
+body[theme="salmon"]{
+    background-color: rgb(252, 87, 69);
+   
+}
+body[theme="salmon"] .section{
+    color: rgb(49, 34, 32);
+}
+body[theme="white"]{
+    background-color: white;
+    
+}
+body[theme="white"] .section{
+    color: #000;
+}
+body[theme="purple"]{
+    background-color:#B26E63;
+    
+}
+body[theme="purple"] .section{
+    color: #44150e;
+}
+.videodiv{
+    clip-path:circle(var(--clip) at 50% 50%);
+}
+body{
+    transition:background-color ease-out .5s;
+}
